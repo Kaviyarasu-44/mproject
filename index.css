@@ -1,0 +1,62 @@
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+#book{
+    color: black;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.book{
+    color: black;
+}
+#im{
+    position: relative;
+    animation-name: run;
+    animation-duration: 5s;
+    animation-iteration-count: infinite
+}
+@keyframes run{
+    0%{
+        top: 0px;left: 50px;
+    }
+    25%{
+        top: 0px;left: 100px;
+    }
+    50%{
+        top: 0px;left: 300px;
+    }
+    75%{
+        top: 0px;left: 500px;
+    }
+    100%{
+        top: 0px;left: 700px;
+    }
+}
+#bu{
+    margin-left: 130px;
+}
+#map{
+    background-image:url(./photos/skb_map2.png);
+}
+.rv{
+    color: black;
+}
+#img1:hover{
+transform: scale(1.1);
+cursor: grabbing;
+}
+.c:hover{
+    transform: scale(1.1);
+}
+.li:hover{
+    transform: scaleX(1.1);
+}
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
